@@ -1,5 +1,12 @@
 .App {
+  width: 60%;
   text-align: center;
+  margin: 2vw auto;
+  border: 2px solid black;
+  background-color: rgb(6, 137, 202);
+  font-family:'Times New Roman', Times, serif
+
+
 }
 
 .App-logo {
@@ -25,7 +32,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #7db8c9;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +42,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list{
+  width: 100%;
+  margin: 2vw auto;
+  border-top: 2px solid black;
+  border-radius: 5px;
+}
+
+.task{
+  padding: 1vw;
+  border-bottom:2px solid black;
+  border-radius: 5px;
+  
+}
+
+.task h1{
+  padding:0;
+  margin:0;
+}
+
+.input{
+  background:rgb(166, 235, 247); ;
+  padding: 0.5vw;
+  width: 50%
+}
+
+.button{
+  margin-left: 0.5vw;
+  padding: 0.5vw
+}
+
+.task button {
+  margin: 0.5vw;
+  padding: 0.5vw
 }
